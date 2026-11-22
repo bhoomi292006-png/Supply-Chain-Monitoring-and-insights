@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# Node
+node_modules/
+dist/
+*.log
+
+# Env / editor
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Models / data artefacts
+*.pkl
+*.joblib
+
+# Saved active network (backend/data/active_network.json) and regenerable datasets (python -m core.synth.build)
+backend/data/active_network*.json
+backend/data/*.tmp
+backend/data/synth/*.parquet
